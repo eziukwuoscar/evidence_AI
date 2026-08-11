@@ -1,0 +1,22 @@
+{
+  "employees": [
+    {
+      "employee_id": "EMP-1042",
+      "name": "James Miller",
+      "email": "james.miller@mockbank.com",
+      "department": "Investment Banking",
+      "team": "Industrials",
+      "role": "Associate",
+      "status": "ACTIVE"
+    },
+    {
+      "employee_id": "EMP-1087",
+      "name": "Sarah Thompson",
+      "email": "sarah.thompson@mockbank.com",
+      "department": "Asset Management",
+      "team": "Public Equities",
+      "role": "Analyst",
+      "status": "ACTIVE"
+    }
+  ]
+}
