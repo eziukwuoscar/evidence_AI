@@ -1,0 +1,146 @@
+{
+  "emails": [
+    {
+      "email_id": "EMAIL-7001",
+      "thread_id": "EMAIL-THREAD-3001",
+
+      "sender": {
+        "employee_id": "EMP-1099",
+        "name": "Michael Chen",
+        "email": "michael.chen@mockbank.com"
+      },
+
+      "recipients": [
+        {
+          "employee_id": "EMP-1042",
+          "name": "James Miller",
+          "email": "james.miller@mockbank.com"
+        }
+      ],
+
+      "cc": [],
+
+      "sent_at": "2026-07-09T16:18:09-04:00",
+
+      "subject": "Project Falcon - Tomorrow's Discussion",
+
+      "body": "James, we have a Project Falcon discussion tomorrow morning at 8:30. Please review the latest materials beforehand. The transaction remains confidential.",
+
+      "attachments": [
+        {
+          "attachment_id": "ATT-9001",
+          "filename": "project_falcon_summary.pdf",
+          "classification": "CONFIDENTIAL"
+        }
+      ],
+
+      "mentions": {
+        "projects": ["Project Falcon"],
+        "securities": [],
+        "companies": []
+      },
+
+      "classification": {
+        "confidential": true,
+        "external": false
+      }
+    },
+
+    {
+      "email_id": "EMAIL-7002",
+      "thread_id": "EMAIL-THREAD-3002",
+
+      "sender": {
+        "employee_id": "EMP-1103",
+        "name": "Laura Bennett",
+        "email": "laura.bennett@mockbank.com"
+      },
+
+      "recipients": [
+        {
+          "employee_id": "EMP-1042",
+          "name": "James Miller",
+          "email": "james.miller@mockbank.com"
+        },
+        {
+          "employee_id": "EMP-1099",
+          "name": "Michael Chen",
+          "email": "michael.chen@mockbank.com"
+        }
+      ],
+
+      "cc": [],
+
+      "sent_at": "2026-07-10T08:02:31-04:00",
+
+      "subject": "Falcon materials",
+
+      "body": "Attached are the updated materials for this morning's Project Falcon meeting. Please do not circulate outside the deal team.",
+
+      "attachments": [
+        {
+          "attachment_id": "ATT-9002",
+          "filename": "falcon_transaction_update.pdf",
+          "classification": "CONFIDENTIAL"
+        }
+      ],
+
+      "mentions": {
+        "projects": ["Project Falcon"],
+        "securities": [],
+        "companies": []
+      },
+
+      "classification": {
+        "confidential": true,
+        "external": false
+      }
+    },
+
+    {
+      "email_id": "EMAIL-7003",
+      "thread_id": "EMAIL-THREAD-3100",
+
+      "sender": {
+        "employee_id": "EMP-1120",
+        "name": "David Lee",
+        "email": "david.lee@mockbank.com"
+      },
+
+      "recipients": [
+        {
+          "employee_id": "EMP-1087",
+          "name": "Sarah Thompson",
+          "email": "sarah.thompson@mockbank.com"
+        }
+      ],
+
+      "cc": [],
+
+      "sent_at": "2026-07-10T10:16:41-04:00",
+
+      "subject": "Nova Technologies research",
+
+      "body": "Sarah, attached is the latest publicly available research note on Nova Technologies that you requested.",
+
+      "attachments": [
+        {
+          "attachment_id": "ATT-9100",
+          "filename": "nova_public_research.pdf",
+          "classification": "PUBLIC"
+        }
+      ],
+
+      "mentions": {
+        "projects": [],
+        "securities": ["NOVA"],
+        "companies": ["Nova Technologies"]
+      },
+
+      "classification": {
+        "confidential": false,
+        "external": false
+      }
+    }
+  ]
+}
