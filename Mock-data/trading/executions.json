@@ -1,0 +1,159 @@
+{
+  "executions": [
+    {
+      "execution_id": "EXEC-20260710-000184",
+      "order_id": "ORD-88213",
+      "trade_id": "TRD-100238-A",
+
+      "execution_type": "TRADE",
+      "order_status": "PARTIALLY_FILLED",
+
+      "security": {
+        "ticker": "ACME",
+        "name": "Acme Corporation",
+        "isin": "US123456789"
+      },
+
+      "side": "BUY",
+
+      "last_quantity": 5000,
+      "last_price": 42.10,
+
+      "cumulative_quantity": 5000,
+      "remaining_quantity": 10000,
+      "average_price": 42.10,
+
+      "execution_value": 210500.00,
+
+      "execution_time": "2026-07-10T09:32:01.438-04:00",
+
+      "venue": {
+        "mic": "XNAS",
+        "name": "NASDAQ"
+      },
+
+      "account": "FUND-001",
+      "trader_id": "EMP-1042",
+
+      "liquidity_indicator": "REMOVED",
+      "currency": "USD"
+    },
+
+    {
+      "execution_id": "EXEC-20260710-000185",
+      "order_id": "ORD-88213",
+      "trade_id": "TRD-100238-B",
+
+      "execution_type": "TRADE",
+      "order_status": "FILLED",
+
+      "security": {
+        "ticker": "ACME",
+        "name": "Acme Corporation",
+        "isin": "US123456789"
+      },
+
+      "side": "BUY",
+
+      "last_quantity": 10000,
+      "last_price": 42.18,
+
+      "cumulative_quantity": 15000,
+      "remaining_quantity": 0,
+      "average_price": 42.1533,
+
+      "execution_value": 421800.00,
+
+      "execution_time": "2026-07-10T09:32:17.921-04:00",
+
+      "venue": {
+        "mic": "XNAS",
+        "name": "NASDAQ"
+      },
+
+      "account": "FUND-001",
+      "trader_id": "EMP-1042",
+
+      "liquidity_indicator": "REMOVED",
+      "currency": "USD"
+    },
+
+    {
+      "execution_id": "EXEC-20260710-000392",
+      "order_id": "ORD-88214",
+      "trade_id": "TRD-100239-A",
+
+      "execution_type": "TRADE",
+      "order_status": "PARTIALLY_FILLED",
+
+      "security": {
+        "ticker": "NOVA",
+        "name": "Nova Technologies",
+        "isin": "US987654321"
+      },
+
+      "side": "SELL",
+
+      "last_quantity": 3000,
+      "last_price": 87.40,
+
+      "cumulative_quantity": 3000,
+      "remaining_quantity": 5000,
+      "average_price": 87.40,
+
+      "execution_value": 262200.00,
+
+      "execution_time": "2026-07-10T11:14:24.194-04:00",
+
+      "venue": {
+        "mic": "XNYS",
+        "name": "NYSE"
+      },
+
+      "account": "FUND-003",
+      "trader_id": "EMP-1087",
+
+      "liquidity_indicator": "ADDED",
+      "currency": "USD"
+    },
+
+    {
+      "execution_id": "EXEC-20260710-000393",
+      "order_id": "ORD-88214",
+      "trade_id": "TRD-100239-B",
+
+      "execution_type": "TRADE",
+      "order_status": "FILLED",
+
+      "security": {
+        "ticker": "NOVA",
+        "name": "Nova Technologies",
+        "isin": "US987654321"
+      },
+
+      "side": "SELL",
+
+      "last_quantity": 5000,
+      "last_price": 87.35,
+
+      "cumulative_quantity": 8000,
+      "remaining_quantity": 0,
+      "average_price": 87.36875,
+
+      "execution_value": 436750.00,
+
+      "execution_time": "2026-07-10T11:14:29.708-04:00",
+
+      "venue": {
+        "mic": "XNYS",
+        "name": "NYSE"
+      },
+
+      "account": "FUND-003",
+      "trader_id": "EMP-1087",
+
+      "liquidity_indicator": "REMOVED",
+      "currency": "USD"
+    }
+  ]
+}
