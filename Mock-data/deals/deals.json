@@ -1,0 +1,18 @@
+{
+  "deals": [
+    {
+      "deal_id": "DEAL-221",
+      "project_name": "Project Falcon",
+      "company": {
+        "name": "Acme Corporation",
+        "ticker": "ACME"
+      },
+      "deal_type": "M&A",
+      "status": "CONFIDENTIAL",
+      "deal_team": [
+        "EMP-1099",
+        "EMP-1103"
+      ]
+    }
+  ]
+}
