@@ -1,0 +1,63 @@
+{
+  "securities": [
+    {
+      "security_id": "SEC-1001",
+      "ticker": "ACME",
+      "name": "Acme Corporation",
+      "isin": "US123456789",
+      "cusip": "123456789",
+      "security_type": "COMMON_STOCK",
+      "asset_class": "EQUITY",
+
+      "exchange": {
+        "mic": "XNAS",
+        "name": "NASDAQ"
+      },
+
+      "currency": "USD",
+      "country": "US",
+      "sector": "Industrials",
+      "industry": "Industrial Technology",
+
+      "trading_status": "ACTIVE",
+
+      "surveillance": {
+        "restricted": true,
+        "watchlist": true,
+        "restriction_reason": "Active confidential transaction",
+        "restriction_added_at": "2026-07-08T14:30:00-04:00",
+        "internal_project_name": "Project Falcon"
+      }
+    },
+
+    {
+      "security_id": "SEC-1002",
+      "ticker": "NOVA",
+      "name": "Nova Technologies",
+      "isin": "US987654321",
+      "cusip": "987654321",
+      "security_type": "COMMON_STOCK",
+      "asset_class": "EQUITY",
+
+      "exchange": {
+        "mic": "XNYS",
+        "name": "NYSE"
+      },
+
+      "currency": "USD",
+      "country": "US",
+      "sector": "Technology",
+      "industry": "Software",
+
+      "trading_status": "ACTIVE",
+
+      "surveillance": {
+        "restricted": false,
+        "watchlist": false,
+        "restriction_reason": null,
+        "restriction_added_at": null,
+        "internal_project_name": null
+      }
+    }
+  ]
+}

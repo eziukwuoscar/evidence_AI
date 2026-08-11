@@ -1,0 +1,94 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD-88213",
+      "trader": {
+        "employee_id": "EMP-1042",
+        "name": "James Miller",
+        "desk": "Equities"
+      },
+      "security": {
+        "ticker": "ACME",
+        "name": "Acme Corporation",
+        "isin": "US123456789"
+      },
+      "side": "BUY",
+      "order_type": "LIMIT",
+      "quantity": 15000,
+      "limit_price": 42.20,
+      "created_at": "2026-07-10T09:31:04",
+      "status": "FILLED",
+
+      "executions": [
+        {
+          "execution_id": "EXEC-001",
+          "quantity": 5000,
+          "price": 42.10,
+          "executed_at": "2026-07-10T09:32:01",
+          "venue": "NASDAQ"
+        },
+        {
+          "execution_id": "EXEC-002",
+          "quantity": 10000,
+          "price": 42.18,
+          "executed_at": "2026-07-10T09:32:17",
+          "venue": "NASDAQ"
+        }
+      ],
+
+      "trade_summary": {
+        "trade_id": "TRD-100238",
+        "total_executed_quantity": 15000,
+        "average_execution_price": 42.1533,
+        "total_value": 632299.50,
+        "first_execution_at": "2026-07-10T09:32:01",
+        "last_execution_at": "2026-07-10T09:32:17"
+      }
+    },
+
+    {
+      "order_id": "ORD-88214",
+      "trader": {
+        "employee_id": "EMP-1087",
+        "name": "Sarah Thompson",
+        "desk": "Equities"
+      },
+      "security": {
+        "ticker": "NOVA",
+        "name": "Nova Technologies",
+        "isin": "US987654321"
+      },
+      "side": "SELL",
+      "order_type": "MARKET",
+      "quantity": 8000,
+      "created_at": "2026-07-10T11:14:22",
+      "status": "FILLED",
+
+      "executions": [
+        {
+          "execution_id": "EXEC-003",
+          "quantity": 3000,
+          "price": 87.40,
+          "executed_at": "2026-07-10T11:14:24",
+          "venue": "NYSE"
+        },
+        {
+          "execution_id": "EXEC-004",
+          "quantity": 5000,
+          "price": 87.35,
+          "executed_at": "2026-07-10T11:14:29",
+          "venue": "NYSE"
+        }
+      ],
+
+      "trade_summary": {
+        "trade_id": "TRD-100239",
+        "total_executed_quantity": 8000,
+        "average_execution_price": 87.36875,
+        "total_value": 698950.00,
+        "first_execution_at": "2026-07-10T11:14:24",
+        "last_execution_at": "2026-07-10T11:14:29"
+      }
+    }
+  ]
+}
