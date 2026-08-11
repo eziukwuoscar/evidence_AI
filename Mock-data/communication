@@ -1,0 +1,111 @@
+{
+  "chats": [
+    {
+      "message_id": "CHAT-5001",
+      "thread_id": "THREAD-2201",
+      "platform": "INTERNAL_CHAT",
+      "channel": "direct_message",
+
+      "sender": {
+        "employee_id": "EMP-1099",
+        "name": "Michael Chen",
+        "email": "michael.chen@mockbank.com"
+      },
+
+      "recipients": [
+        {
+          "employee_id": "EMP-1042",
+          "name": "James Miller",
+          "email": "james.miller@mockbank.com"
+        }
+      ],
+
+      "sent_at": "2026-07-08T15:12:44-04:00",
+
+      "content": "Project Falcon has moved forward. Keep this within the deal team for now.",
+
+      "mentions": {
+        "projects": ["Project Falcon"],
+        "securities": [],
+        "companies": []
+      },
+
+      "classification": {
+        "confidential": true,
+        "external": false
+      }
+    },
+
+    {
+      "message_id": "CHAT-5002",
+      "thread_id": "THREAD-2201",
+      "platform": "INTERNAL_CHAT",
+      "channel": "direct_message",
+
+      "sender": {
+        "employee_id": "EMP-1042",
+        "name": "James Miller",
+        "email": "james.miller@mockbank.com"
+      },
+
+      "recipients": [
+        {
+          "employee_id": "EMP-1099",
+          "name": "Michael Chen",
+          "email": "michael.chen@mockbank.com"
+        }
+      ],
+
+      "sent_at": "2026-07-08T15:15:02-04:00",
+
+      "content": "Understood. I'll keep it within the team.",
+
+      "mentions": {
+        "projects": ["Project Falcon"],
+        "securities": [],
+        "companies": []
+      },
+
+      "classification": {
+        "confidential": true,
+        "external": false
+      }
+    },
+
+    {
+      "message_id": "CHAT-5003",
+      "thread_id": "THREAD-2318",
+      "platform": "INTERNAL_CHAT",
+      "channel": "direct_message",
+
+      "sender": {
+        "employee_id": "EMP-1087",
+        "name": "Sarah Thompson",
+        "email": "sarah.thompson@mockbank.com"
+      },
+
+      "recipients": [
+        {
+          "employee_id": "EMP-1120",
+          "name": "David Lee",
+          "email": "david.lee@mockbank.com"
+        }
+      ],
+
+      "sent_at": "2026-07-10T10:04:18-04:00",
+
+      "content": "Can you send me the latest public research note on Nova Technologies?",
+
+      "mentions": {
+        "projects": [],
+        "securities": ["NOVA"],
+        "companies": ["Nova Technologies"]
+      },
+
+      "classification": {
+        "confidential": false,
+        "external": false
+      }
+    }
+  ]
+}
